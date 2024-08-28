@@ -1,0 +1,246 @@
+html,
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.header {
+    background-image: url(img/ultima.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-header h1 {
+    font-size: 3.9rem;
+    color: white;
+}
+
+span {
+    font-size: 7.5rem;
+    color: #12ff46;
+}
+
+.button-header {
+    position: absolute;
+    bottom: 60px;
+
+}
+
+.button-header a {
+    font-size: 2rem;
+    border-radius: 2px;
+    border: 1px solid white;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    transition: 1.3s;
+
+}
+
+.button-header a:hover {
+    color: #12ff46;
+}
+
+.nosotros {
+    height: 100vh;
+    background-color: #12ff46;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.nosotros-flex {
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-p-nos {
+    margin-left: 90px;
+    width: 50%;
+}
+
+.titulo-nos {
+    text-align: left;
+    font-size: 2rem;
+    margin: 20px 0px;
+}
+
+.span-title-nos {
+    /* text-align: left; */
+    font-size: 3.2rem;
+    color: white;
+}
+
+.p-nos {
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.img-nos {
+    border-radius: 10px;
+}
+
+.icons ul li {
+    display: inline-block;
+    font-size: 2.3rem;
+    /* color: white; */
+    padding: 20px 10px;
+}
+
+.icons a {
+    color: white;
+}
+
+.icons ul li a:hover {
+    color: black;
+}
+
+.experiencie {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experiencie-flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.titulo-p-experiencie {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-experiencie {
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+}
+
+.span-title-experiencie {
+    font-size: 3.2rem;
+    color: #12ff46;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.card {
+    font-size: 1.2rem;
+    /* background-color: antiquewhite; */
+    margin-top: 50px;
+    margin-right: 50px;
+    opacity: 900;
+    padding: 50px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+.card h4{
+    color: #12ff46;
+    /* opacity: 0.5; */
+    padding-bottom: 20px;
+}
+.card h6{
+    padding-bottom: 10px;
+    opacity: 0.5;
+}
+.card p{
+    margin-bottom: 10px;
+    max-width: 500px;
+}
+.img-ex{
+    border-radius: 20px;
+    margin-left: 50px;
+    height: 600px;
+    width: 400px;
+}
+@media(min-width:200px) and (max-width:700px) {
+
+    .h1-header h1 {
+        font-size: 2.3rem;
+    }
+
+    .h1-header span {
+        font-size: 2.8rem;
+    }
+
+    .button-header a:hover {
+        color: white;
+    }
+
+    .nosotros-flex {
+        flex-direction: column;
+    }
+
+    .img-nos {
+        margin-top: 30px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .titulo-nos {
+        text-align: center;
+        font-size: 1.1rem;
+        /* text-align: center; */
+    }
+
+    .span-title-nos {
+        font-size: 1.8rem;
+    }
+
+    .nosotros {
+        height: 0%;
+    }
+
+    .titulo-p-nos {
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    .p-nos {
+        text-align: left;
+        padding: 0 50px 20px;
+    }
+
+    .iconos ul li {
+        padding: 0;
+        display: flex;
+        justify-content: left;
+        /* flex-direction: ; */
+        text-align: center;
+
+    }
+
+    /* .p-nos{
+        max-width: 100%;
+        padding: 20px;
+        font-size: 1.2rem;
+    } */
+}
