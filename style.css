@@ -191,6 +191,35 @@ span {
     width: 400px;
 }
 
+/* proyects */
+.section-proyects {
+    background-color: black;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proyects{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:10px;
+}
+.img-proyects{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.proyects ul li{
+
+    display: inline-block;
+}
+.section-proyects h3{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
 @media(min-width:200px) and (max-width:700px) {
 
     .h1-header h1 {
