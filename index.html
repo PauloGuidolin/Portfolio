@@ -12,6 +12,9 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -44,15 +47,15 @@
                 </div>
                 <div class="icons">
                     <ul>
-                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fab fa-github github"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram instagram"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/paulo-guidolin-581ba9254/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/PauloGuidolin" target="_blank"><i class="fab fa-github github"></i></a></li>
+                        <li><a href="https://www.instagram.com/paulo.guidolin/" target="_blank"><i class="fab fa-instagram instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
-    <section class="experiencie" id="experiencia">
+    <section class="experiencie" id="experiencia" data-aos="zoom-in-left">
         <div class="experiencie-flex">
 
             <div class="titulo-p-experiencie">
@@ -62,7 +65,8 @@
                         <div class="card">
                             <h4>Tutor Python Kodland University</h4>
                             <h6>October 2023-Actualidad</h6>
-                            <p>En mis clases, los estudiantes aprenden los fundamentos de la programacion con Python, incluyendo: 
+                            <p>En mis clases, los estudiantes aprenden los fundamentos de la programacion con Python,
+                                incluyendo:
                             </p>
                             <ul>
                                 <li>Variables y tipos de datos</li>
@@ -74,30 +78,33 @@
 
                         </div>
                         <div class="card">
-                            <h4>Tutor Python Kodland University</h4>
-                            <h6>October 2023-Actualidad</h6>
-                            <p>En mis clases, los estudiantes aprenden los fundamentos de la programacion con Python, incluyendo: 
+                            <h4>TCM Kodland University</h4>
+                            <h6>October 2023-August 2024</h6>
+                            <p>
+                                Reuniones de venta, ofrecer un servicio y cerrar la venta con empatía y clarificacion en
+                                base a objetivos y educación.
                             </p>
                             <ul>
-                                <li>Variables y tipos de datos</li>
-                                <li>Estructura de control</li>
-                                <li>Funciones y módulos</li>
-                                <li>Manejo de errores</li>
-                                <li>Creacion de proyectos básicos</li>
+                                <li>Lider de equipo</li>
+                                <li>+25.000 usd facturados a la empresa</li>
+                                <li>Manejo de AmoCrm</li>
+                                <li>Manejo de excel</li>
+                                <li>Administracion grupos</li>
                             </ul>
 
                         </div>
                         <div class="card">
-                            <h4>Tutor Python Kodland University</h4>
-                            <h6>October 2023-Actualidad</h6>
-                            <p>En mis clases, los estudiantes aprenden los fundamentos de la programacion con Python, incluyendo: 
+                            <h4>Emprendimiento Candymania mza</h4>
+                            <h6>February 2021-Actualidad</h6>
+                            <p>Emprendimiento de golosinas, nació como un emprendimiento y hoy es un negócio familiar
+                                donde realizamos ferias los fines de semana.
                             </p>
                             <ul>
-                                <li>Variables y tipos de datos</li>
-                                <li>Estructura de control</li>
-                                <li>Funciones y módulos</li>
-                                <li>Manejo de errores</li>
-                                <li>Creacion de proyectos básicos</li>
+                                <li>Venta física</li>
+                                <li>Venta online</li>
+                                <li>Productos empaquetados</li>
+                                <li>Controlar stock de productos</li>
+                                <li>Manejo redes sociales</li>
                             </ul>
 
                         </div>
@@ -106,16 +113,48 @@
                 </div>
             </div>
     </section>
-    <section class="section-proyects">
+    <section class="section-proyects" data-aos="zoom-in-up">
         <h2>PROYECTS</h2>
-       <img src="img/img1.jpg" alt="" class="img1 item-1">
-       <img src="img/img2.jpg" alt="" class="img2 item-2">
-       <img src="img/img3.jpg" alt="" class="img1 item-3">
-       <img src="img/img4.jpg" alt="" class="img2 item-4">
-       <img src="img/img5.jpg" alt="" class="img2 item-5">
-       <img src="img/img6.jpg" alt="" class="img1 item-6">
+        <img src="img/img1.jpg" alt="" class="img1 item-1">
+        <img src="img/img2.jpg" alt="" class="img2 item-2">
+        <img src="img/img3.jpg" alt="" class="img1 item-3">
+        <img src="img/img4.jpg" alt="" class="img2 item-4">
+        <img src="img/img5.jpg" alt="" class="img2 item-5">
+        <img src="img/img6.jpg" alt="" class="img1 item-6">
 
     </section>
+    <section class="formulario">
+
+        <img src="img/imgform.jpg" alt="imf formulario">
+        <form action="">
+            <h3>Let’s <span class="spanform">work</span> together.</h3>
+            <div class=" section-form name">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="Name...">
+            </div>
+            <div class="section-form mail">
+                <label for="email">Mail</label>
+                <input type="email" name="email" id="email" placeholder="Mail...">
+            </div>
+
+            <div class="section-form msg">
+                <label for="message">Your idea</label>
+                <textarea name="message" id="message"  placeholder="Your Idea..."></textarea>
+            </div>
+
+            <div class="button-form">
+                <input type="submit" value="SEND" class="btn">
+
+            </div>
+
+        </form>
+    </section>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 
 </html>
